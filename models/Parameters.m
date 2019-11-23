@@ -6,11 +6,13 @@ Ts = 25e-6;
 R = 10; % Resistance [Ohm]
 L = 10e-3; % Inductance [H]
 e = 100; % Back-EMF peak amplitude [V]
-f_e = 50*(2*pi); % Back-EMF frequency [rad/s]
+%f_e = 50*(2*pi); % Back-EMF frequency [rad/s]
+f_e = 50; % Back-EMF frequency [Hz]
 Vdc = 520; % DC-link voltage [V]
 % Current reference
 I_ref_peak = 10; % Peak amplitude [A]
-f_ref = 50*(2*pi); % Frequency [rad/s]
+%f_ref = 50*(2*pi); % Frequency [rad/s]
+f_ref = 50; % frequency [Hz]
 % Voltage vectors
 v0 = 0;
 v1 = 2/3*Vdc;
